@@ -1,0 +1,23 @@
+name = "LegacyCropModels"
+uuid = "fafe21e4-58fd-4103-9131-b905c621aa1b"
+version = "0.1.0"
+authors = ["Kyungdahm Yun <tomyun@gmail.com>"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Cropbox = "a904b226-abf1-11e9-2713-059ba252a964"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[compat]
+CSV = "0.10.16"
+Cropbox = "0.3.52"
+DataFrames = "1.8.2"
+Dates = "1.11.0"
+julia = "1.12"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
